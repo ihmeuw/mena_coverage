@@ -1,0 +1,2 @@
+data_transform,gbd_covariates,prediction_units,stage_1_model_formula,st_lambda,st_omega,st_zeta,gpr_scale,rake_logit,description,release_id,path_to_data,modelable_entity_id,prediction_sex_ids,year_start,year_end,gpr_draws
+logit,"DTP3_coverage_prop,war_rate,haqi",Proportion of target population covered by MenA vaccine,data ~ DTP3_coverage_prop + haqi + (1|level_3) + log(war_rate + 0.0001),0.4,1,0.001,4,0,"MenA ST-GPR - MenBelt countries only. No density cutoffs, try DTP3.",9,/FILEPATH/MenBeltOnly_Extraction_crosswalked_2022_09_04.csv,26970,3,2015,2021,1000
